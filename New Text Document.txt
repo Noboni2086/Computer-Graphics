@@ -1,0 +1,228 @@
+#include <windows.h>
+#include <GL/glut.h>
+
+void board1(){
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0);
+    glVertex2f(0.0, 0.0);
+    glVertex2f(1.0, 0.0);
+     glVertex2f(1.0, 1.0);
+glVertex2f(0.0, 1.0);
+    glEnd();}
+
+void board2(){
+
+      glBegin(GL_POLYGON);
+    glColor3ub(247, 249, 249 );
+    glVertex2f(1.0, 0.0);
+    glVertex2f(2.0, 0.0);
+     glVertex2f(2.0, 1.0);
+glVertex2f(1.0, 1.0);
+    glEnd();
+
+
+}
+void board3(){
+    glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0 );
+    glVertex2f(1.0, 1.0);
+    glVertex2f(2.0, 1.0);
+     glVertex2f(2.0, 2.0);
+glVertex2f(1.0, 2.0);
+    glEnd();
+}
+
+void board4(){
+
+     glBegin(GL_POLYGON);
+    glColor3ub(247, 249, 249);
+    glVertex2f(0.0, 1.0);
+    glVertex2f(1.0, 1.0);
+     glVertex2f(1.0, 2.0);
+glVertex2f(0.0, 2.0);
+    glEnd();
+
+
+}
+
+void board5(){
+    glBegin(GL_POLYGON);
+    glColor3ub( 247, 249, 249);
+    glVertex2f(0.0, 0.0);
+    glVertex2f(-1.0, 0.0);
+     glVertex2f(-1.0, 1.0);
+glVertex2f(0.0, 1.0);
+    glEnd();
+}
+void board6(){
+
+     glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0);
+    glVertex2f(-1.0, 1.0);
+    glVertex2f(0.0, 1.0);
+     glVertex2f(0.0, 2.0);
+glVertex2f(-1.0, 2.0);
+    glEnd();
+
+}
+
+
+void board7(){
+     glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0);
+    glVertex2f(-1.0, 0.0);
+    glVertex2f(-2.0, 0.0);
+     glVertex2f(-2.0, 1.0);
+glVertex2f(-1.0, 1.0);
+    glEnd();
+}
+
+void board8(){
+     glBegin(GL_POLYGON);
+    glColor3ub(247, 249, 249);
+    glVertex2f(-1.0, 1.0);
+    glVertex2f(-2.0, 1.0);
+     glVertex2f(-2.0, 2.0);
+glVertex2f(-1.0, 2.0);
+    glEnd();
+}
+
+void board9(){
+     glBegin(GL_POLYGON);
+    glColor3ub(247, 249, 249);
+    glVertex2f(0.0, 0.0);
+    glVertex2f(0.0, -1.0);
+    glVertex2f(1.0, -1.0);
+    glVertex2f(1.0, 0.0);
+
+    glEnd();
+
+}
+
+void board10(){
+
+    glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0);
+    glVertex2f(1.0, 0.0);
+    glVertex2f(1.0, -1.0);
+    glVertex2f(2.0, -1.0);
+    glVertex2f(2.0, 0.0);
+
+    glEnd();
+
+
+}
+
+
+void board11(){
+     glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0);
+    glVertex2f(0.0, -1.0);
+    glVertex2f(0.0, -2.0);
+    glVertex2f(1.0, -2.0);
+    glVertex2f(1.0, -1.0);
+
+    glEnd();
+}
+
+void board12(){
+     glBegin(GL_POLYGON);
+    glColor3ub(247, 249, 249);
+    glVertex2f(1.0, -1.0);
+    glVertex2f(1.0, -2.0);
+    glVertex2f(2.0, -2.0);
+    glVertex2f(2.0, -1.0);
+
+    glEnd();
+}
+
+void board13(){
+      glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0);
+    glVertex2f(0.0, 0.0);
+    glVertex2f(-1.0, 0.0);
+    glVertex2f(-1.0, -1.0);
+    glVertex2f(0.0, -1.0);
+
+    glEnd();
+}
+
+void board14(){
+
+    glBegin(GL_POLYGON);
+    glColor3ub(247, 249, 249);
+    glVertex2f(-1.0, 0.0);
+    glVertex2f(-1.0, -1.0);
+    glVertex2f(-2.0, -1.0);
+    glVertex2f(-2.0, 0.0);
+
+    glEnd();
+
+}
+
+void board15(){
+    glBegin(GL_POLYGON);
+    glColor3ub(247, 249, 249);
+    glVertex2f(0.0, -1.0);
+    glVertex2f(0.0, -2.0);
+    glVertex2f(-1.0, -2.0);
+    glVertex2f(-1.0, -1.0);
+
+    glEnd();
+
+}
+
+void board16(){
+      glBegin(GL_POLYGON);
+    glColor3f(0.0,0.0,0.0);
+    glVertex2f(-1.0, -1.0);
+    glVertex2f(-1.0, -2.0);
+    glVertex2f(-2.0, -2.0);
+    glVertex2f(-2.0, -1.0);
+
+    glEnd();
+}
+
+
+void display() {
+
+glClear(GL_COLOR_BUFFER_BIT);
+
+board1();
+board2();
+board3();
+board4();
+board5();
+board6();
+board7();
+board8();
+board9();
+board10();
+board11();
+board12();
+board13();
+board14();
+board15();
+board16();
+
+
+    glFlush();
+
+
+}
+
+int main(int argc, char** argv) {
+    glutInit(&argc, argv);
+    glutInitWindowSize(800, 600); // Set window size to 800x600 pixels
+    glutCreateWindow("SHraboiBisaws NAboni -26"); // Set window title
+
+    glClearColor(0.1, 0.1, 0.1, 1.0); // Set background color to dark gray
+
+    gluOrtho2D(-4.0, 4.0, -4.0, 4.0); // Set the orthographic viewing area
+
+    glutDisplayFunc(display); // Register the display callback function
+    glutMainLoop(); // Enter the GLUT event processing loop
+
+    return 0;
+}
