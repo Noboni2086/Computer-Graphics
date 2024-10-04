@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1720457154 source:c:\users\user\desktop\cg\performancetask1\main.cpp
+1720810040 source:c:\users\user\desktop\cg\performancetask1\main.cpp
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>

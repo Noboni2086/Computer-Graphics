@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1720542711 source:c:\users\user\desktop\cg\pweforance task 2\main.cpp
+1720810341 source:c:\users\user\desktop\cg\pweforance task 2\main.cpp
 	<cmath>
 	<windows.h>
 	<GL/glut.h>

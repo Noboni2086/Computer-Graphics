@@ -15,7 +15,26 @@ void land()
 
 
 }
+glLoadIdentity(); //Reset the drawing perspective
+	glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    /*Transalation*/
+    //glTranslatef(0.0f, 0.0f, 0.0f);
+    /*Rotation*/
+	//glRotatef(200,0.0f, 0.0f, 1.0f);
+	/*Scaling*/
+	glScalef(0.1f, -2.0f, 0.0f);
+	glBegin(GL_POLYGON);              // Each set of 4 vertices form a quad
+	glColor3f(1.0f, 0.0f, 0.0f); // Red
+	glVertex2f(0.2f,0.0f);
+	glVertex2f(0.5f,0.0f);
+	glVertex2f(0.5f,0.2f);
+	glVertex2f(0.2f,0.2f);  // x, y
 
+	glEnd();
+
+	glFlush();
+	glPopMatrix();
 void star()
 
 {

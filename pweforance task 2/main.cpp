@@ -1,6 +1,4 @@
 
-
-
 #include <cmath>
 #include <windows.h>
 #ifdef __APPLE__
@@ -916,23 +914,23 @@ void display() {
     glClear(GL_COLOR_BUFFER_BIT);
     glLineWidth(3);
 
-    circleWithBorder(4.75,14, 17, 255, 255, 255, 0.1, 0, 0, 0);
-circleWithBorder(sqrt(0.0534077485), 14.209400140944, 20.516627064691, 255, 255, 255, 0.02, 0, 0, 0);  // Red circle with black border
-    circleWithBorder(sqrt(0.05317181131), 14.2250898773659, 20.9900645977075, 255, 255, 255, 0.02, 0, 0, 0);  // Green circle with black border
-    circleWithBorder(sqrt(0.02391931191), 14.6260567116128, 20.5953385067132,255, 255, 255, 0.02, 0, 0, 0);  // Blue circle with black border
-    circleWithBorder(sqrt(0.0290424956426), 14.6203223818, 20.962257530824, 255, 255, 255, 0.02, 0, 0, 0);  // Yellow circle with black border
+    circleWithBorder(4.75,14, 17, 255, 255, 255, 0.06, 0, 0, 0);
+circleWithBorder(sqrt(0.0534077485), 14.209400140944, 20.516627064691, 255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.05317181131), 14.2250898773659, 20.9900645977075, 255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.02391931191), 14.6260567116128, 20.5953385067132,255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.0290424956426), 14.6203223818, 20.962257530824, 255, 255, 255, 0.02, 0, 0, 0);
 
 
 
-    circleWithBorder(sqrt(0.0114339381146), 15.7544924717687, 20.9105948374362,  255, 255, 255, 0.02, 0, 0, 0);  // Red circle with black border
-    circleWithBorder(sqrt(0.014923402578), 15.5, 20.9, 255, 255, 255, 0.02, 0, 0, 0);  // Green circle with black border
-    circleWithBorder(sqrt(0.0151467310501), 15.4985667983693, 21.1654716351249,  255, 255, 255, 0.02, 0, 0, 0);  // Blue circle with black border
-    circleWithBorder(sqrt(0.01300003574099), 15.7544924717687, 21.1444949120919, 255, 255, 255, 0.02, 0, 0, 0);  // Yellow circle with black border
+    circleWithBorder(sqrt(0.0114339381146), 15.7544924717687, 20.9105948374362,  255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.014923402578), 15.5, 20.9, 255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.0151467310501), 15.4985667983693, 21.1654716351249,  255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.01300003574099), 15.7544924717687, 21.1444949120919, 255, 255, 255, 0.02, 0, 0, 0);
 
-    circleWithBorder(sqrt(0.0079295417917), 16.0285621640557, 19.8307592535984, 255, 255, 255, 0.02, 0, 0, 0);  // Orange circle with black border
-    circleWithBorder(sqrt(0.0098185854448), 15.8, 19.8, 255, 255, 255, 0.02, 0, 0, 0);  // Cyan circle with black border
-    circleWithBorder(sqrt(0.0135209940872), 15.7659232623846, 20.0377572454617, 255, 255, 255, 0.02, 0, 0, 0);  // Magenta circle with black border
-    circleWithBorder(sqrt(0.0152587869724), 16.0449536343134, 20.0597281408892, 255, 255, 255, 0.02, 0, 0, 0);  // Purple circle with black border
+    circleWithBorder(sqrt(0.0079295417917), 16.0285621640557, 19.8307592535984, 255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.0098185854448), 15.8, 19.8, 255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.0135209940872), 15.7659232623846, 20.0377572454617, 255, 255, 255, 0.02, 0, 0, 0);
+    circleWithBorder(sqrt(0.0152587869724), 16.0449536343134, 20.0597281408892, 255, 255, 255, 0.02, 0, 0, 0);
     line();
     tree();
   //  star();
@@ -950,7 +948,7 @@ int main(int argc, char *argv[])
     glutCreateWindow("Shraboni Biswas Naboni-26");
 
     glutDisplayFunc(display);
-    gluOrtho2D(0, 20, 0, 25);
+    gluOrtho2D(4, 25,10, 25);
 //gluOrtho2D(9, 19, 12, 23);
     glutMainLoop();
 
